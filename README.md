@@ -1,16 +1,23 @@
-# content_bytes
+# ContentBytes
 
-A new Flutter project.
+A simple CRUD app which stores data to local storage(sqflite).
 
-## Getting Started
+### :firecracker: Features
 
-This project is a starting point for a Flutter application.
+- Register and login
+_ Create, read, update and delete a content
+_ Search content
+_ Validation on text fields
+_ Regular expression for email, phone and image url
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### :art:	Design Resources
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Color palette: https://coolors.co/
+- Image icons: https://www.flaticon.com/
+- Animation files: https://lottiefiles.com/
+
+### :iphone: Screenshot
+
+![content](https://user-images.githubusercontent.com/60124367/186455880-b559b88a-7237-416c-9192-bcdaf17f15f5.jpg)
+Made with Figma
