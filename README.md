@@ -5,10 +5,10 @@ A simple CRUD app which stores data to local storage(sqflite).
 ### :firecracker: Features
 
 - Register and login
-_ Create, read, update and delete a content
-_ Search content
-_ Validation on text fields
-_ Regular expression for email, phone and image url
+- Create, read, update and delete a content
+- Search content
+- Validation on text fields
+- Regular expression for email, phone and image url
 
 
 ### :art:	Design Resources
