@@ -6,7 +6,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(
-     MyApp(),
+    MyApp(),
   );
 }
 
@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Content Bytes',
       theme: _myTheme.myThemeData(),
-      home: LoginPage(), //LoginPage(),
+      home: LoginPage(),
     );
   }
 }
