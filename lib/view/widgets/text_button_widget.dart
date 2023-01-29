@@ -18,10 +18,10 @@ class TextBtnWidget extends StatelessWidget {
           child: TextButton(
               style: TextButton.styleFrom(
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                  side: BorderSide(color: Colors.black),
-                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  side: const BorderSide(color: Colors.black),
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                   backgroundColor: btnColor ?? Theme.of(context).primaryColor,
-                  primary: nameColor ?? Colors.black),
+                  foregroundColor: nameColor ?? Colors.black),
               onPressed: onTap,
               child: Text(name)),
         ),

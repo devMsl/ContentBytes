@@ -114,16 +114,16 @@ class _NewsFeedPageState extends State<NewsFeedPage> with TickerProviderStateMix
                   color: Colors.black,
                 )),
             hintText: 'Search',
-            contentPadding: EdgeInsets.all(10),
-            border: OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
-            focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
-            enabledBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
+            contentPadding: const EdgeInsets.all(10),
+            border: const OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
+            focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
+            enabledBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.black)),
           ),
         ),
         actions: [
           IconButtonWidget(
             color: Theme.of(context).primaryColor,
-            onTap: () => context.to(AddNewFeedPage()).then((value) {
+            onTap: () => context.to(const AddNewFeedPage()).then((value) {
               if (value != null) {
                 if (value == true) {
                   setState(() {});

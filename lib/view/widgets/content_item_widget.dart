@@ -59,7 +59,7 @@ class ContentItemWidget extends StatelessWidget {
               children: [
                 Text(
                   name,
-                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
                 ),
                 MyBoxWidget(),
                 Text(

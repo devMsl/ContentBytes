@@ -23,7 +23,7 @@ class DismissibleBackgroundWidget extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            alignment == Alignment.centerRight ? Spacer() : SizedBox(),
+            alignment == Alignment.centerRight ? const Spacer() : const SizedBox(),
             Expanded(
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -34,7 +34,7 @@ class DismissibleBackgroundWidget extends StatelessWidget {
                 ),
               ),
             ),
-            alignment == Alignment.centerLeft ? Spacer() : SizedBox(),
+            alignment == Alignment.centerLeft ? const Spacer() : const SizedBox(),
           ],
         ),
       ),

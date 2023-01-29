@@ -22,31 +22,31 @@ class CardWidget extends StatelessWidget {
       this.ph,
       this.pv,
       this.backgroundColor}) {
-    if (this.pa != null) {
+    if (pa != null) {
       pl = pa;
       pr = pa;
       pb = pa;
       pt = pa;
     }
 
-    if (this.mh != null) {
+    if (mh != null) {
       ml = mh;
       mr = mh;
     }
-    if (this.mv != null) {
+    if (mv != null) {
       mt = mv;
       mb = mv;
     }
-    if (this.ph != null) {
+    if (ph != null) {
       pl = ph;
       pr = ph;
     }
-    if (this.pv != null) {
+    if (pv != null) {
       pt = pv;
       pb = pv;
     }
 
-    if (this.ma != null) {
+    if (ma != null) {
       ml = ma;
       mr = ma;
       mb = ma;

@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    final _myTheme = MyTheme();
+    final myTheme = MyTheme();
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Content Bytes',
-      theme: _myTheme.myThemeData(),
-      home: LoginPage(),
+      theme: myTheme.myThemeData(),
+      home: const LoginPage(),
     );
   }
 }

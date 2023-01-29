@@ -80,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                       if (_formKey.currentState!.validate()) {
                         dbHelper.getLogin(password: passwordController.text, contact: contactController.text).then((value) {
                           if (value != null) {
-                            context.offAll(NewsFeedPage());
+                            context.offAll(const NewsFeedPage());
                           }
                         });
                       }
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                     const Text('Not Register? '),
                     InkWell(
                       onTap: () {
-                        context.to(RegisterPage());
+                        context.to(const RegisterPage());
                       },
                       child: const Text(
                         'Create an account',

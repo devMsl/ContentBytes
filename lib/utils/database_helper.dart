@@ -8,8 +8,8 @@ import '../constants/constants.dart';
 import '../models/user_object.dart';
 
 class DatabaseHelper {
-  static final _databaseName = "MyDatabase.db";
-  static final _databaseVersion = 1;
+  static const _databaseName = "MyDatabase.db";
+  static const _databaseVersion = 1;
 
   DatabaseHelper._privateConstructor();
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
@@ -86,7 +86,7 @@ class DatabaseHelper {
   Future<UserObject?> getLogin({required String contact, required String password}) async {
     Database db = await instance.database;
     var res = await db.rawQuery("SELECT * FROM $tableUser WHERE contact = '$contact' and password = '$password'");
-    if (res.length > 0) {
+    if (res.isNotEmpty) {
       return UserObject.fromMap(res.first);
     }
     return null;
