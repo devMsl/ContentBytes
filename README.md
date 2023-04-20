@@ -20,4 +20,3 @@ A simple CRUD app which stores data to local storage(sqflite).
 ### :iphone: Screenshot
 
 ![content](https://user-images.githubusercontent.com/60124367/186455880-b559b88a-7237-416c-9192-bcdaf17f15f5.jpg)
-Made with Figma
